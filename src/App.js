@@ -280,8 +280,34 @@ function App() {
               return (
                 <div
                   key={index}
+                  className="col-span-13 grid grid-cols-13 items-center gap-2 py-5 border-b border-[#393939] relative"
+                >
+                  {/* <div
+                  key={index}
                   className="col-span-13 grid grid-cols-13 items-center gap-2 py-5 border-b border-[#393939]"
                 >
+                </div> */}
+                  {/* Vertical Borders */}
+                  <div className="absolute top-[-4px] left-[40px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[120px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[190px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[270px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[350px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[430px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[510px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[590px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[670px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[750px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[830px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[910px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[990px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1070px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1155px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1240px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1320px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1400px] h-full w-[0.5px] bg-[#393939]"></div>
+                  <div className="absolute top-[-4px] left-[1480px] h-full w-[0.5px] bg-[#393939]"></div>
+
                   {/* Participant Details */}
                   <div className="col-span-3 flex justify-between items-start">
                     <div>
@@ -445,6 +471,7 @@ function App() {
                     </div>
                   </div>
                 </div>
+
               );
             })}
           </>
