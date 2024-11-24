@@ -229,9 +229,9 @@ function App() {
   );
 
   return (
-    <div className="bg-[#1F1F1F] text-white p-4 overflow-hidden relative">
+    <div className="bg-[#1F1F1F] text-white pl-4 pr-4 pt-4 overflow-hidden relative">
       {/* Header */}
-      <div className="flex justify-between items-center border-b border-[#393939] pb-2 mb-4">
+      <div className="flex justify-between items-center border-b border-[#393939] pb-2">
         <div className="flex items-center gap-2">
           <FiClipboard className="text-white text-lg" />
           <h1 className="font-lato text-[14px] font-bold leading-[16.8px] text-left underline-from-font decoration-skip-ink-none">
