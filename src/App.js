@@ -280,7 +280,7 @@ function App() {
               return (
                 <div
                   key={index}
-                  className="col-span-13 grid grid-cols-13 items-center gap-2 py-4 border-b border-[#393939]"
+                  className="col-span-13 grid grid-cols-13 items-center gap-2 py-5 border-b border-[#393939]"
                 >
                   {/* Participant Details */}
                   <div className="col-span-3 flex justify-between items-start">
