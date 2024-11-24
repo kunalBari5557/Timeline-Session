@@ -250,7 +250,7 @@ function App() {
       {/* Timeline */}
       <div className="grid grid-cols-13 gap-2">
         {/* Timeline Header */}
-        <div className="col-span-13 flex justify-between text-sm border-b border-[#393939] pb-2 text-[#666666] relative z-10">
+        <div className="col-span-13 flex justify-between text-sm border-b border-[#393939] pb-2.5 pt-2.5 text-[#666666] relative z-10">
           {timelineTicks.map((tick, index) => (
             <div key={index} className="w-[80px] text-center">
               {tick}
