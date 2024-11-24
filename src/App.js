@@ -243,6 +243,7 @@ function App() {
           <Switch
             defaultChecked
             onChange={() => setShowParticipantDetails(!showParticipantDetails)}
+            style={{ transform: 'scale(0.75)' }}
           />
         </div>
       </div>
