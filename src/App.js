@@ -6,6 +6,7 @@ import {
   FaMicrophone,
   FaVideo,
 } from "react-icons/fa";
+import { FiClipboard } from "react-icons/fi";
 import { BsExclamationCircle } from "react-icons/bs";
 import { Switch } from "antd";
 
@@ -233,7 +234,7 @@ function App() {
       {/* Header */}
       <div className="flex justify-between items-center border-b border-[#393939] pb-2 mb-4">
         <div className="flex items-center gap-2">
-          <FaClipboard className="text-white text-lg" />
+          <FiClipboard className="text-white text-lg" />
           <h1 className="font-lato text-[14px] font-bold leading-[16.8px] text-left underline-from-font decoration-skip-ink-none">
             Participants wise Session Timeline
           </h1>
